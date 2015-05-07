@@ -19,18 +19,19 @@
     "node": ">= 0.10.12"
   },
   "dependencies": {
-    "commander": "~2.3.0",
-    "utilx": "~0.0.8",
-    "colorful": "~2.1.0",
-    "express": "~4.9.0",
     "body-parser": "~1.8.2",
-    "socket.io": "~1.1.0",
-    "detector":"~2.1.1",
-    "tracer": "~0.7.3",
-    "when": "~3.4.6",
+    "colorful": "~2.1.0",
+    "commander": "~2.3.0",
+    "detector": "~2.1.1",
+    "express": "~4.9.0",
     "iconv-lite": "~0.4.4",
+    "jscoverage": "0.3.7",
     "request": "~2.44.0",
-    "jscoverage": "0.3.7"
+    "socket.io": "~1.1.0",
+    "totoro": "^2.0.2",
+    "tracer": "~0.7.3",
+    "utilx": "~0.0.8",
+    "when": "~3.4.6"
   },
   "devDependencies": {
     "grunt": "0.4.1",
