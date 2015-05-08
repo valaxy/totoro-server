@@ -30,6 +30,7 @@
     "socket.io": "~1.1.0",
     "totoro": "^2.0.2",
     "tracer": "~0.7.3",
+    "underscore": "^1.8.3",
     "utilx": "~0.0.8",
     "when": "~3.4.6"
   },
