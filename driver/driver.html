@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Totoro</title>
+    <style>
+        html, body {
+            width:       100%;
+            height:      100%;
+            margin:      0;
+            padding:     0;
+            font-family: "微软雅黑", "宋体";
+        }
+        .everything {
+            width:      100%;
+            height:     100%;
+            text-align: center;
+            position:   relative;
+            background: #44b549;
+            color:      white;
+        }
+        .text {
+            position: absolute;
+            margin:   auto;
+            top:      0;
+            bottom:   0;
+            height:   100px;
+            width:    100%;
+        }
+        h1 {
+        }
+        iframe {
+            width:    100%;
+            height:   120px;
+            position: absolute;
+            bottom:   0;
+            left:     0;
+            border:   none;
+        }
+    </style>
+</head>
+<body>
+<div class="everything">
+    <div class="text">
+        <h1>你的浏览器正在被征用</h1>
+        <p>
+            <span class="count">0</span>
+            个任务已执行
+        </p>
+    </div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/__static/driver.js"></script>
+</body>
+</html>
